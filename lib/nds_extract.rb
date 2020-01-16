@@ -17,12 +17,14 @@ def directors_totals(nds)
     while column < nds[row].length do
       inner_len = nds[row][column].length
       inner_num = 0
-      while inner_num <
+      #while inner_num <
+      #end
     end
   end
 
   result = {
 
   }
+  nil
 
 end
