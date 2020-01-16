@@ -11,7 +11,8 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   total = 0
   row = 0
-
+  result = {}
+  
   while row < nds.length do
     num_movies = 0
     while num_movies < nds[row][:movies].length do
@@ -23,9 +24,7 @@ def directors_totals(nds)
     row += 1
   end
 
-  result = {
 
-  }
-  nil
+  result
 
 end
