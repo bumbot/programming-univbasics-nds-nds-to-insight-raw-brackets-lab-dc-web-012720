@@ -8,10 +8,20 @@ def directors_totals(nds)
   #
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
+  total = 0
+  row = 0
+
+  while row < nds.length do 
+    column = 0
+    while column < nds[row].length do
+      inner_len = nds[row][column].length
+      inner_num = 0
+      while inner_num <
+    end
+  end
+  
   result = {
 
   }
 
 end
-
-pp directors_database
