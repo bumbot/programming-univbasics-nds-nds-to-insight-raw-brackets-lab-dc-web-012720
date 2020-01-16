@@ -15,10 +15,10 @@ def directors_totals(nds)
   while row < nds.length do
     num_movies = 0
     while num_movies < nds[row][:movies].length do
-      
+
     end
 
-        result[nds[row][:name]] = 
+        result[nds[row][:name]] =
     row += 1
   end
 
