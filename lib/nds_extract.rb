@@ -11,7 +11,7 @@ def directors_totals(nds)
   total = 0
   row = 0
 
-  while row < nds.length do 
+  while row < nds.length do
     column = 0
     while column < nds[row].length do
       inner_len = nds[row][column].length
@@ -19,7 +19,7 @@ def directors_totals(nds)
       while inner_num <
     end
   end
-  
+
   result = {
 
   }
